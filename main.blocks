@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="7{:S|k(]+X)bE6BPcUlL" x="0" y="0"><statement name="HANDLER"><block type="device_show_number" id=";#UD``jBQ8f#Zz5%2.3]"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="8ds~%5K[r$E[gfgUzBkb"></block></value><next><block type="device_while" id="Y~Au,%+v5DfXZI}3(*nK"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="]~)tO|x!z9?LYZO@MwBE"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="4#!UZo+])p3e]$zTL(BN"></block></value><value name="B"><shadow type="math_number" id="dOj)d}V:m#U_%eBeIoGx"><field name="NUM">25</field></shadow></value></block></value><statement name="DO"><block type="device_show_number" id="czMo^bYZHV/xGv_#yH*R"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="/:06=qG?O%M$3q?apZcD"></block></value><next><block type="basic_show_icon" id="*L,:8g#Mt|tMOI5fx[dn"><field name="i">IconNames.Heart</field><next><block type="device_show_leds" id=")4fzDqA3_NbF2-//$?gX"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="m@91vRee]m-9EMA[gKb|"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></next></block></next></block></statement></block></next></block></statement></block></xml>
